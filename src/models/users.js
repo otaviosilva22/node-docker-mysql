@@ -19,4 +19,4 @@ var users = sequelize.define('users', {
 })
 
 //export
-module.exports = users;
+module.exports = {users};

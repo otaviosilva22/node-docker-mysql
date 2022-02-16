@@ -1,10 +1,10 @@
 //create table comments if does not exists
 (async () => {
-    const database = require('../models/users');
+    const {users} = require('../models/users');
  
     try {
-        const resultado = await database.sync();
-        console.log(resultado);
+        const resultado = await users.sync();
+        console.log("Table created with success!");
     } catch (error) {
         console.log(error);
     }
