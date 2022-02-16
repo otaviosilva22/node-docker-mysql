@@ -1,5 +1,5 @@
 # Aplicação CRUD (Create, Read, Update, Delete)
-## Exemplificação back-end para CRUD desenvolvido com Node.js.
+### Exemplificação back-end para CRUD desenvolvido com Node.js.
 
 
 ## Tecnologias Utilizadas
@@ -20,6 +20,10 @@ docker-compose up
 ~~~Javascript
 node src/database/migration.js
 ~~~
+
+## Documentação
+### A documentação das APIs pode ser visualizada clicando <a href='./src/controllers'>aqui</a>
+
 
 ## Autor
 ### Otávio Augusto Souza Silva
