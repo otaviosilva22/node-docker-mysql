@@ -3,14 +3,21 @@ version: "3"
 services:
 
   server:
-    image: otavio/main
+    image: node/server
     build: .
     ports:
       - "3000:3000"
+    command: npm start
+    environment:
+      PORT: 3000
+      DB_USERNAME: root
+      DB_PASSWORD: crud_db
+      DB_DATABASE: crud_db
+      DB_HOSTNAME: mysql
     volumes:
       - .:/usr/server
 
-  zenvia_db:
+  mysql:
     image: mysql:5.7
     container_name: crud_db
     environment:
