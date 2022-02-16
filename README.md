@@ -1,7 +1,6 @@
 # Aplicação CRUD (Create, Read, Update, Delete)
 ## Exemplificação back-end para CRUD desenvolvido com Node.js.
 
-</br>
 
 ## Tecnologias Utilizadas
 - [Node.js](https://nodejs.org/en/)
