@@ -1,12 +1,12 @@
 const express = require('express');
-const routes = require('./routes');
+const router = require('./router');
 
-const server = express ();
+const server = express();
 
 server.use(express.json());
 
-server.use(routes);
+server.use(router);
 
-server.listen(3333, ()=>{
+server.listen(3000, ()=>{
     console.log("Server is running!");
 })
