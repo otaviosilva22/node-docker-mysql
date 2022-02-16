@@ -22,7 +22,7 @@ node src/database/migration.js
 ~~~
 
 ## Documentação
-### A documentação das APIs pode ser visualizada clicando <a href='./src/controllers'>aqui</a>
+### A documentação das APIs pode ser visualizada clicando <a href='./src/controllers'>aqui</a>.
 
 
 ## Autor
