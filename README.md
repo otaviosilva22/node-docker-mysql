@@ -7,6 +7,7 @@
 - [MySQL](https://www.mysql.com/)
 - [Sequelize](https://sequelize.org/)
 - [Docker](https://www.docker.com/)
+- [Jest](https://jestjs.io/pt-BR/)
 
 ## 🚀 Como Iniciar
 ### Execute o docker-compose por meio do comando:
