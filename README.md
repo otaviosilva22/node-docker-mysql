@@ -1,4 +1,4 @@
-# Aplicação CRUD (Create, Read, Update, Delete)
+# Aplicação CRUD com Node.js, MySQL, Sequelize, Docker e Jest para testes unitários.
 Exemplificação back-end para CRUD desenvolvido com Node.js e várias outras tecnologias/ferramentas.
 
 
